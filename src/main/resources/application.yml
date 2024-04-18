@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: JavaWeb_Framework
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: 'root'
+    password: 'nm2295761'
