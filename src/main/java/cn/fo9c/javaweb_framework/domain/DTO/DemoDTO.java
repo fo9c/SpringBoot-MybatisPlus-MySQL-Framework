@@ -1,5 +1,6 @@
-package cn.fo9c.javaweb_framework.entity;
+package cn.fo9c.javaweb_framework.domain.DTO;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
@@ -11,12 +12,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-// 使用TableName注解指定表名
-@TableName("user")
-public class Demo {
-    // 使用TableId注解指定主键
-    @TableId
-
+// 定义DTO类,是用于接收前端传来的数据(接收)
+public class DemoDTO {
     private Integer uid;
     private String name;
     private int age;
