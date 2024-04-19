@@ -1,7 +1,6 @@
 package cn.fo9c.javaweb_framework.service;
 
 import cn.fo9c.javaweb_framework.domain.DTO.DemoDTO;
-import cn.fo9c.javaweb_framework.domain.PO.DemoPO;
 import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,5 +12,5 @@ public interface DemoService {
      * @param demoDTO 用户Uid
      * @return 用户信息
      */
-    public DemoVO getDemoInfoByUid(DemoDTO demoDTO);
+    DemoVO getDemoInfoByUid(DemoDTO demoDTO);
 }
