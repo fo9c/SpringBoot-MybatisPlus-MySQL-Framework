@@ -51,6 +51,20 @@
             <version>3.5.5</version>
         </dependency>
 
+        <!-- 引入StringUtils数据判断工具 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+
+        <!-- 集成P6spy实现SQL日志监控 -->
+        <dependency>
+            <groupId>p6spy</groupId>
+            <artifactId>p6spy</artifactId>
+            <version>3.9.1</version>
+        </dependency>
+
     </dependencies>
     <!-- ———————————————————————————————————————————————————— -->
 

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.List;
 
 // 使用RestController注解标记这是一个控制器
@@ -39,6 +40,9 @@ public class DemoController {
     @PostMapping("/user/find")
     public Result<DemoVO> findUserByUid(@RequestBody DemoDTO demoDTO) {
         DemoVO demoVO = demoService.getDemoInfoByUid(demoDTO);
+        if (demoVO == null) {
+            return Result.error("查询失败",new HashMap<>());
+        }
         return Result.success("查询成功", demoVO);
     }
 

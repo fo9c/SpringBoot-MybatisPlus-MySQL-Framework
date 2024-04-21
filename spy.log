@@ -1,0 +1,70 @@
+1713713727106|6|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713727113|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713756305|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713756305|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713757380|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713757380|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713761469|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713761469|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713764353|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713764353|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713971289|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713971295|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713980648|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713980648|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713981735|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=NULL
+1713713981735|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713713994370|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT  uid,name,age  FROM user|SELECT  uid,name,age  FROM user
+1713713999796|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT  uid,name,age  FROM user|SELECT  uid,name,age  FROM user
+1713714054898|1|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714054902|1|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714061596|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714061596|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714066181|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=65
+1713714066181|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714103403|5|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=65
+1713714103410|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714121118|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=65
+1713714121124|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714127241|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714127245|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714140385|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714140392|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714141666|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714141667|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714145758|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=6541
+1713714145759|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714150336|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714150337|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714187924|5|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714187933|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714316388|6|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714316395|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714476353|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714476361|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714529235|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714529244|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714810973|3|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2
+1713714810980|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714814617|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714814618|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714816095|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714816095|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714817129|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714817130|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714917904|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714917912|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714926268|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714926269|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714941237|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=2453
+1713714941244|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714944839|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714944841|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714962669|3|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713714962677|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713714968300|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=156
+1713714968300|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713715051246|4|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=156
+1713715051253|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
+1713715054989|0|statement|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC|SELECT uid,name,age FROM user WHERE uid=?|SELECT uid,name,age FROM user WHERE uid=1
+1713715054992|0|commit|connection 0|url jdbc:p6spy:mysql://localhost:3306/mybatisplus-frame-test?serverTimezone=UTC||
