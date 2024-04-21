@@ -11,10 +11,8 @@ import org.springframework.core.env.Environment;
 public class JavaWebFrameworkApplication {
 
     public static void main(String[] args) {
-        // 这是旧版启动项
-        // SpringApplication.run(JavaWebFrameworkApplication.class, args);
 
-        // 这是新版启动项,追加路径显示
+        // 新启动项追加路径显示
         ConfigurableApplicationContext application = SpringApplication.run(JavaWebFrameworkApplication.class, args);
         Environment env = application.getEnvironment();
         String port = env.getProperty("server.port");
