@@ -31,7 +31,6 @@ public class DemoController {
 
     @GetMapping("/user")
     public List<DemoPO> getDemoList() {
-    public List<Demo> getDemoList() {
         SnowFlakeID snowFlakeID1 = new SnowFlakeID();
         System.out.println(snowFlakeID1.generator());
         return demoMapper.selectList(null);
