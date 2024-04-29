@@ -27,7 +27,7 @@ mybatis-plus:
   global-config:
     banner: false
 
-
+# P6Spy配置
 logging:
   level:
     com:

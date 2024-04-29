@@ -7,6 +7,9 @@ import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
 import cn.fo9c.javaweb_framework.mapper.DemoMapper;
 import cn.fo9c.javaweb_framework.service.DemoService;
 import cn.fo9c.javaweb_framework.utils.SnowFlakeID;
+import lombok.extern.log4j.Log4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 import java.util.List;
+
 
 // 使用RestController注解标记这是一个控制器
 @RestController
@@ -33,7 +37,9 @@ public class DemoController {
     @GetMapping("/user")
     public List<DemoPO> getDemoList() {
         SnowFlakeID snowFlakeID1 = new SnowFlakeID();
-        System.out.println(snowFlakeID1.generator());
+        System.out.println("雪花ID1: " + snowFlakeID1.generator());
+        Logger logger = LoggerFactory.getLogger(DemoController.class);
+        logger.info("获取用户列表");
         return demoMapper.selectList(null);
     }
 

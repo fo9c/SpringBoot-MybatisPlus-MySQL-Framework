@@ -5,7 +5,7 @@ import com.p6spy.engine.spy.appender.MessageFormattingStrategy;
 public class P6SpyLoggerConfig implements MessageFormattingStrategy {
 
     /**
-     * Sql日志格式化
+     * 该文件为P6Spy配置文件，用于监控SQL执行情况
      *
      * @param connectionId: 连接ID
      * @param now:          当前时间
