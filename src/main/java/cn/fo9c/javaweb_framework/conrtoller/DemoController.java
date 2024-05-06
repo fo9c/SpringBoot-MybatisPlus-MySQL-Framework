@@ -7,7 +7,6 @@ import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
 import cn.fo9c.javaweb_framework.mapper.DemoMapper;
 import cn.fo9c.javaweb_framework.service.DemoService;
 import cn.fo9c.javaweb_framework.utils.SnowFlakeID;
-import lombok.extern.log4j.Log4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
