@@ -21,6 +21,6 @@ public class P6SpyLoggerConfig implements MessageFormattingStrategy {
         return StringUtils.isNotBlank(sql) ? "| Execution time: " + now + // 执行时间
                 " | Takes "  + elapsed + " ms" +                         // SQL语句耗时
                 " | SQL statement: " +                                   // SQL语句
-                sql.replaceAll("[\\s]+", " ") + " |ᨐᵐᵉᵒʷ\n" : "";
+                sql.replaceAll("[\\s]+", " ") + " |ᨐᵐᵉᵒʷ" : "";
     }
 }

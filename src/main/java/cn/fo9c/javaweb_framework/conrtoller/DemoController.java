@@ -33,21 +33,35 @@ public class DemoController {
 //        this.demoMapper = demoMapper;
 //    }
 
+
+    // 使用LoggerFactory创建日志记录器
+    Logger logger = LoggerFactory.getLogger(DemoController.class);
+
+    /**
+     * 获取用户列表
+     */
     @GetMapping("/user")
     public List<DemoPO> getDemoList() {
         SnowFlakeID snowFlakeID1 = new SnowFlakeID();
-        System.out.println("雪花ID1: " + snowFlakeID1.generator());
-        Logger logger = LoggerFactory.getLogger(DemoController.class);
+
+        logger.info("雪花ID1: " + snowFlakeID1.generator());
         logger.info("获取用户列表");
         return demoMapper.selectList(null);
     }
 
+
+    /**
+     * 添加用户
+     * @param demoDTO 用户信息
+     */
     @PostMapping("/user/find")
     public Result<DemoVO> findUserByUid(@RequestBody DemoDTO demoDTO) {
         DemoVO demoVO = demoService.getDemoInfoByUid(demoDTO);
         if (demoVO == null) {
+            logger.error("查询失败");
             return Result.error("查询失败",new HashMap<>());
         }
+        logger.info("查询成功");
         return Result.success("查询成功", demoVO);
     }
 
