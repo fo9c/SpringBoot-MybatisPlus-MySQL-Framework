@@ -1,4 +1,4 @@
-package cn.fo9c.javaweb_framework.domain.DTO;
+package cn.fo9c.javaweb_framework.domain.Demo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

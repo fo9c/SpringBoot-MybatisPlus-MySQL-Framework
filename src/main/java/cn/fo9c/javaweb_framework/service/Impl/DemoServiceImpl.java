@@ -1,8 +1,8 @@
 package cn.fo9c.javaweb_framework.service.Impl;
 
-import cn.fo9c.javaweb_framework.domain.DTO.DemoDTO;
-import cn.fo9c.javaweb_framework.domain.PO.DemoPO;
-import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoDTO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoPO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoVO;
 import cn.fo9c.javaweb_framework.mapper.DemoMapper;
 import cn.fo9c.javaweb_framework.service.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;

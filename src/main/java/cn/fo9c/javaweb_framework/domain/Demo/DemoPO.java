@@ -1,4 +1,4 @@
-package cn.fo9c.javaweb_framework.domain.PO;
+package cn.fo9c.javaweb_framework.domain.Demo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;

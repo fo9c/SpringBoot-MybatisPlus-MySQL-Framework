@@ -1,7 +1,7 @@
 package cn.fo9c.javaweb_framework.service;
 
-import cn.fo9c.javaweb_framework.domain.DTO.DemoDTO;
-import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoDTO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoVO;
 import org.springframework.transaction.annotation.Transactional;
 
 // 使用Transactional注解声明这个类的所有方法都需要事务管理,在抛出异常时会回滚

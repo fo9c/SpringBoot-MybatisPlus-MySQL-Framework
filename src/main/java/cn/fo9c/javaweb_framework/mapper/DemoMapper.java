@@ -1,6 +1,6 @@
 package cn.fo9c.javaweb_framework.mapper;
 
-import cn.fo9c.javaweb_framework.domain.PO.DemoPO;
+import cn.fo9c.javaweb_framework.domain.Demo.DemoPO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 
