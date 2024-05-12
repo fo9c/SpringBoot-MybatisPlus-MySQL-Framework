@@ -2,8 +2,8 @@
 server:
   port: 8082
 
-spring:
 # 配置应用名称
+spring:
   application:
     name: JavaWeb_Framework
 

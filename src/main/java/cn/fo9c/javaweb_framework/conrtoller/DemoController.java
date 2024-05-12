@@ -2,7 +2,7 @@ package cn.fo9c.javaweb_framework.conrtoller;
 
 import cn.fo9c.javaweb_framework.domain.DTO.DemoDTO;
 import cn.fo9c.javaweb_framework.domain.PO.DemoPO;
-import cn.fo9c.javaweb_framework.domain.Result;
+import cn.fo9c.javaweb_framework.utils.Result;
 import cn.fo9c.javaweb_framework.domain.VO.DemoVO;
 import cn.fo9c.javaweb_framework.mapper.DemoMapper;
 import cn.fo9c.javaweb_framework.service.DemoService;

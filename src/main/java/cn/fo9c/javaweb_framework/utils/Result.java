@@ -1,4 +1,4 @@
-package cn.fo9c.javaweb_framework.domain;
+package cn.fo9c.javaweb_framework.utils;
 
 import lombok.Data;
 
