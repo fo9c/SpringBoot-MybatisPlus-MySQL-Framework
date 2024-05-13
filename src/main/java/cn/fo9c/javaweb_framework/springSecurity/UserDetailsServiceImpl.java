@@ -25,7 +25,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         // 加载日志
         Logger logger = LoggerFactory.getLogger(UserDetailsServiceImpl.class);
 
-        // 通过用户名查询用户信息
+        // 通过用户名查询用户信息（注意只查询一条数据）
         LambdaQueryWrapper<User> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(User::getName, username);
         User user = userMapper.selectOne(queryWrapper);
