@@ -1,6 +1,6 @@
 package cn.fo9c.javaweb_framework.utils;
 
-import cn.fo9c.javaweb_framework.conrtoller.DemoController;
+import cn.fo9c.javaweb_framework.conrtoller.UserController;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;
@@ -29,7 +29,7 @@ public class JWTToken {
     // 设置JWT过期时间（7天）
     private static final long expireTime = 1000L * 60 * 60 * 24 * 7;
     // 设置日志记录器
-    private static final Logger JWTlogger = LoggerFactory.getLogger(DemoController.class);
+    private static final Logger JWTlogger = LoggerFactory.getLogger(UserController.class);
 
     /**
      * 生成新的JWTToken

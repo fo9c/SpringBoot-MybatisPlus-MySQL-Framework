@@ -14,13 +14,16 @@ import lombok.NoArgsConstructor;
 
 // 使用TableName注解指定表名
 @TableName("user")
+
 // 定义PO类,用于映射数据库表
 public class DemoPO {
     // 使用TableId注解指定主键
     @TableId
     private Integer uid;
+
     @TableField(value = "name")
     private String name;
+
     @TableField(value = "age")
     private int age;
 

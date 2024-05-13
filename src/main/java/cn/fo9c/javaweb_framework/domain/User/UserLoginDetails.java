@@ -14,6 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserLoginDetails implements UserDetails {
+
     private User user;
 
     @Override
@@ -21,33 +22,55 @@ public class UserLoginDetails implements UserDetails {
         return List.of();
     }
 
+    /**
+     * 获取密码
+     */
     @Override
     public String getPassword() {
-        return "";
+        return user.getPassword();
     }
 
+    /**
+     * 获取用户名
+     */
     @Override
     public String getUsername() {
-        return "";
+        return user.getName();
     }
 
+    /**
+     * 账号是否未过期
+     */
     @Override
     public boolean isAccountNonExpired() {
-        return false;
+        // TODO
+        return true;
     }
 
+    /**
+     * 账号是否未锁定
+     */
     @Override
     public boolean isAccountNonLocked() {
-        return false;
+        // TODO
+        return true;
     }
 
+    /**
+     * 凭证是否未过期
+     */
     @Override
     public boolean isCredentialsNonExpired() {
-        return false;
+        // TODO
+        return true;
     }
 
+    /**
+     * 账号是否可用
+     */
     @Override
     public boolean isEnabled() {
-        return false;
+        // TODO
+        return true;
     }
 }
