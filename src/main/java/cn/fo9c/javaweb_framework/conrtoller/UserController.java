@@ -23,20 +23,16 @@ import java.util.List;
 // 使用RestController注解标记这是一个控制器
 @RestController
 public class UserController {
+
     // 使用字段或者构造器注入DemoMapper，实现数据访问
     @Autowired
     private DemoMapper demoMapper;
     @Autowired
     private DemoService demoService;
-//    private final DemoMapper demoMapper;
-//
-//    public DemoController(DemoMapper demoMapper) {
-//        this.demoMapper = demoMapper;
-//    }
-
 
     // 使用LoggerFactory创建日志记录器
     Logger logger = LoggerFactory.getLogger(UserController.class);
+
 
     /**
      * 获取用户列表
